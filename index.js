@@ -3,7 +3,7 @@ var fs = require('fs');
 var sys = require('sys')
 var exec = require('child_process').exec;
 
-var config = __dirname + "/config.json"
+var config = __dirname + "/config.js"
 
 var cmd ="" + __dirname + "/node_modules/.bin/supervisor " + __dirname + "/bin/www "
 
