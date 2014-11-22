@@ -24,5 +24,3 @@ fs.writeFile(config, "module.exports = {'upload': '" + up_folder + "'};" , funct
 	
 	exec(cmd, puts);
 });
-
-
