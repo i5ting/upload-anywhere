@@ -9,7 +9,7 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
-
+var config = require('./config');
 var multer  = require('multer')
 
 // for raw data
@@ -25,7 +25,7 @@ app.use(function(req, res, next){
 });
 
 app.use(multer({ 
-	dest: './uploads/',
+	dest: config.upload,
   rename: function (fieldname, filename) {
     return filename //.replace(/\W+/g, '-').toLowerCase() + Date.now()
   }

@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var fs = require('fs');
+var config = require('../config');
 
 function explorer(dir,is_recursion,cb){
 	var results = []
@@ -27,7 +28,7 @@ function explorer(dir,is_recursion,cb){
 
 /* GET home page. */
 router.get('/', function(req, res) {
-	var path = 'uploads';
+	var path = config.upload;
 	var files = explorer(path,false,function(files){
 	  res.render('index', { 
 			title: 'Upload Cli',
@@ -66,9 +67,6 @@ router.all('/delete', function(req, res) {
 				}
 			})
 	  }
-
-	
-	
 	});
 	
 });
