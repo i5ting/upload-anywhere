@@ -27,4 +27,4 @@ result
 
 ## Preview 
 
-![doc/preview.png]
+![](doc/preview.png)
