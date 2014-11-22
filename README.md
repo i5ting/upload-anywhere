@@ -25,3 +25,6 @@ result
 	[up-cli INFO] It's served! now you can open in browser http://127.0.0.1:3456/
 ```
 
+## Preview 
+
+![doc/preview.png]
