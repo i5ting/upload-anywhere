@@ -1,5 +1,9 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	h1= title
+	p Welcome to #{title}
+	form(method="post",action="/post/formdata",enctype="multipart/form-data")
+		input(type="file",name="pic")
+		input(type="submit",value="提交")
+		input(type="reset",value="重置")
