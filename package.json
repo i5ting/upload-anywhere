@@ -4,12 +4,12 @@
   "description": "uploads is a npm wrapper for git utils",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/supervisor ./bin/www"
+    "start": "./node_modules/.bin/supervisor ./bin/www",
+    "test": "node index.js"
   },
   "preferGlobal": "true",
   "bin": {
-    "uploads": "bin/uploads.js",
-		"fsck": "bin/fsck.js"
+    "up-cli": "index.js"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,9 @@
     "jade": "~1.6.0",
     "morgan": "~1.3.0",
     "multer": "^0.1.6",
+    "open": "0.0.5",
     "serve-favicon": "~2.1.3",
+    "shelljs": "^0.3.0",
     "supervisor": "^0.6.0"
   }
 }
