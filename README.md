@@ -2,6 +2,8 @@
 
 a cli tools for uploads ui
 
+[![npm version](https://badge.fury.io/js/upload-cli.svg)](http://badge.fury.io/js/upload-cli)
+
 ## Install
 
 	sudo npm install -g upload-cli
