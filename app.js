@@ -27,7 +27,7 @@ app.use(function(req, res, next){
 app.use(multer({ 
 	dest: './uploads/',
   rename: function (fieldname, filename) {
-    return filename.replace(/\W+/g, '-').toLowerCase() + Date.now()
+    return filename //.replace(/\W+/g, '-').toLowerCase() + Date.now()
   }
 }))
 
