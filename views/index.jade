@@ -7,3 +7,8 @@ block content
 		input(type="file",name="pic")
 		input(type="submit",value="提交")
 		input(type="reset",value="重置")
+block files_container
+	ul
+		each item in files
+			li(path= item)= item
+				button.del_file delete

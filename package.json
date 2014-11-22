@@ -4,7 +4,7 @@
   "description": "uploads is a npm wrapper for git utils",
   "main": "index.js",
   "scripts": {
-    "start": "supervisor ./bin/www"
+    "start": "./node_modules/.bin/supervisor ./bin/www"
   },
   "preferGlobal": "true",
   "bin": {
