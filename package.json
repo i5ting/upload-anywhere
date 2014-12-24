@@ -1,10 +1,11 @@
 {
   "name": "upload-cli",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "uploads is a npm wrapper for upload with ui utils",
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/supervisor ./bin/www",
+		"debug":"node-debug bin/www",
     "test": "node index.js"
   },
   "preferGlobal": "true",

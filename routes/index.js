@@ -75,4 +75,17 @@ router.post('/post/formdata', function(req, res) {
 	res.redirect("/")
 });
 
+router.post('/post/formdata.json', function(req, res) {
+	var path = config.upload;
+	// console.log(req);
+	res.json({
+		data:{path:path},
+		status:{
+			code: 0,
+			msg : "success."
+		}
+	})
+});
+
+
 module.exports = router;
