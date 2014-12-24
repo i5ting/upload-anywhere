@@ -62,5 +62,10 @@ result
 
 ## for dev 
 
+debug with node-inspector
+
 	npm run debug
 	
+publish to npmjs.org
+
+	npm run deploy 
