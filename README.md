@@ -12,7 +12,7 @@ a cli tools for uploads ui
 
 in current dir,execute `uc` command
 
-	uc
+	  uc
 	
 result
 
@@ -25,6 +25,13 @@ result
 	[up-cli INFO] It's served! now you can open in browser http://127.0.0.1:3456/
 ```
 
+if you want use it in terminal
+
+```
+➜  upload-cli git:(master) uci package.json                            
+package.json
+Upload successful! http://127.0.0.1:3456/
+```
 
 ## for post
 
