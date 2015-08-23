@@ -11,7 +11,8 @@
   },
   "preferGlobal": "true",
   "bin": {
-    "uc": "index.js"
+    "uc": "index.js",
+    "uci": "bin/client.js"
   },
   "repository": {
     "type": "git",

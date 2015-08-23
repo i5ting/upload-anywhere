@@ -1,1 +1,1 @@
-module.exports = {'upload': '/Users/sang/test'};
+module.exports = {'upload': '/Users/sang/test/c'};
