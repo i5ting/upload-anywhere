@@ -4,9 +4,9 @@
   "description": "uploads is a npm wrapper for upload with ui utils",
   "main": "index.js",
   "scripts": {
-		"deploy": "npm publish .",
+    "deploy": "npm publish .",
     "start": "./node_modules/.bin/supervisor ./bin/www",
-		"debug":"node-debug bin/www",
+    "debug": "node-debug bin/www",
     "test": "node index.js"
   },
   "preferGlobal": "true",
@@ -31,6 +31,7 @@
     "jade": "~1.6.0",
     "morgan": "~1.3.0",
     "multer": "^0.1.6",
+    "request": "^2.61.0",
     "serve-favicon": "~2.1.3",
     "supervisor": "^0.6.0"
   }
