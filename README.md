@@ -76,3 +76,12 @@ debug with node-inspector
 publish to npmjs.org
 
 	npm run deploy 
+
+
+## TODO
+
+[uci] add option -h or --host  #3
+
+- uci file
+- uci -h 127.0.0.1 file
+- uci -h 127.0.0.1 -f file
