@@ -49,9 +49,11 @@ var formData = {
   filename: fs.createReadStream(program.file)
 };
 
+console.time("upload anywhere");
 request.post({url: url, formData: formData}, function optionalCallback(err, httpResponse, body) {
   if (err) {
     return console.error('upload failed:', err);
   }
   console.log('Upload successful! ' + url);
+  console.timeEnd("upload anywhere");
 });

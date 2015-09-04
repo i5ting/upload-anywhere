@@ -1,1 +1,1 @@
-module.exports = {'upload': '/Users/sang/test/aaaaaadsdsd'};
+module.exports = {'upload': '/Users/sang/workspace/github/json/json'};
