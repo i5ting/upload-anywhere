@@ -10,5 +10,6 @@ block content
 block files_container
 	ul
 		each item in files
-			li(path= item)= item
+			li(path= item)
+				a(href=item)= item 
 				button.del_file delete
